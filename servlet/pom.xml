@@ -5,14 +5,14 @@
   <artifactId>servlet</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>docker Maven Webapp</name>
+  <name>Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-  	<dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>servlet-api</artifactId>
-  		<version>2.4</version>
-  	</dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.4</version>
+    </dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -21,6 +21,6 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>docker</finalName>
+    <finalName>servlet</finalName>
   </build>
 </project>

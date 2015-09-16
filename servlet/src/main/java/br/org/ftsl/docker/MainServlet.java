@@ -18,5 +18,7 @@ public class MainServlet extends HttpServlet {
 		conn ++;
 		
 		response.getWriter().write("<html><body>Total de conexões:"+conn+"</body></html>");
+
+		System.out.println("Total de conexões:"+conn);
 	}
 }
