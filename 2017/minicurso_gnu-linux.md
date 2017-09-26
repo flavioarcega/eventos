@@ -40,26 +40,61 @@ As boas consequências disto são evidentes: mais interesse no desenvolvimento d
 
 Mas o interesse no software está crescendo mais rápido do que a consciência na filosofia sobre a qual ele se baseia, e isso leva a problemas. A nossa capacidade para enfrentar os desafios e ameaças descritas acima depende da vontade de defender firmemente a liberdade. Para nos certificarmos de que nossa comunidade tem essa vontade, precisamos difundir a ideia para os novos usuários conforme eles chegam à nossa comunidade, precisamos ensiná-los a educação cívica da nossa comunidade.
 
-A filosofia do software livre rejeita uma prática específica e amplamente difundida de negócios, mas não é contra os negócios. Quando as empresas respeitam a liberdade dos usuários, desejamos-lhes sucesso. A venda de cópias do Emacs demonstra um tipo de negócio com Software Livre, e posteriormente a FSF passou a buscar outras formas de sustentabilidade econômica como a venda de serviços por exemplo. No entanto, algumas empresas se associam ao termpo Código Aberto (Open Source) e apresentam uma proposta que na verdade é software privativo pois seus produtos não respeitam a liberdade do usuário na totalidade.
+A filosofia do software livre rejeita uma prática específica e amplamente difundida de negócios, mas não é contra os negócios. Quando as empresas respeitam a liberdade dos usuários, desejamos-lhes sucesso. Mas há uma outra parcela de empresários e executivos que colocam o lucro acima da liberdade, da comunidade e dos princípios.
+
+A venda de cópias do Emacs demonstra um tipo de negócio com Software Livre. A FSF é uma entidade que também precisa de sustentabilidade econômica e o faz vendendo serviços e até outras fontes de renda. No entanto, algumas empresas se associam ao termpo Código Aberto (Open Source) e apresentam uma proposta que na verdade é privativa pois seus produtos não respeitam a liberdade do usuário.
 
 
 ## O Sistema GNU/Linux
 
-O Sistema Operacional é o conjunto de programas que fazem a interface do usuário e seus programas com o computador. Ele é responsável pelo gerenciamento de recursos e periféricos (como memória, discos, arquivos, impressoras, CD-ROMs, etc.), interpretação de mensagens e a execução de programas.
+O Sistema Operacional é o conjunto de programas que fazem a interface do usuário e de seus programas com o computador. Ele é responsável pelo gerenciamento de recursos e periféricos (como memória, discos, arquivos, impressoras, CD-ROMs, etc.), interpretação de mensagens e pela execução de programas.
 
 ![Dispositivos](dispositivos.png)
 
-Free Software pre-Linux
-This philosophy of asking for users' comments and suggestions and using them to improve computer programs was not new. Richard Stallman, who worked at the Massachusetts Institute of Technology, had been advocating just such an approach to computer programming and use since the early 1970's. He was a pioneer in the concept of 'free software', always pointing out that 'free' means 'freedom', not zero cost. Finding it difficult to continue working under conditions that he felt went against his concept of 'free software' he left MIT in 1984 and founded GNU. The goal of GNU was to produce software that was free to use, distribute and modify. Linus Torvalds' goal 6 years later was basically the same: to produce an operating system that took into account user feedback.
-
 O núcleo do sistema (kernel) vem do projeto Linux e o conjunto de ferramentas que compõem o Sistema Operacional vem do projeto GNU, por isso, o nome do sistema é GNU/Linux.
 
-O Linux é um sistema operacional criado em 1991 por Linus Torvalds. É um sistema Operacional de código aberto distribuído gratuitamente pela Internet. Seu código fonte é liberado como Free Software (software livre), sob licença GPL, o aviso de copyright do kernel feito por Linus descreve detalhadamente isto e mesmo ele não pode fechar o sistema para que seja usado apenas comercialmente.
+O GNU/Linux é um sistema operacional criado em 1991 por Linus Torvalds. É um sistema Operacional de código aberto distribuído gratuitamente pela Internet. Seu código fonte é liberado como Software Livre, sob licença GPL, o aviso de copyright do kernel feito por Linus descreve detalhadamente isto e mesmo ele não pode fechar o sistema para que seja usado apenas comercialmente.
 
-Isto quer dizer que você não precisa pagar nada para usar o Linux, e não é crime fazer cópias para instalar em outros computadores, nós inclusive incentivamos você a fazer isto. Ser um sistema de código aberto pode explicar a performance, estabilidade e velocidade em que novos recursos são adicionados ao sistema.
+Isto quer dizer que você não precisa pagar nada para usar o GNU/Linux, e não é crime fazer cópias para instalar em outros computadores, nós inclusive incentivamos você a fazer isto!
 
 
 ### Distribuições
 
-Distribuições são 
+Existem diferentes versões do GNU/Linux e diferente de Sistemas proprietários controlados por uma única companhia o GNU/Linux é Software Livre que pode ser copiado, alterado e redistribuído sem qualquer problema. Isso cria uma situação onde diversas companhias, organizações e indivíduos têm desenvolvido sua própria e específica versão do sistema. Quando estas versões são oferecidas publicamente como Software Livre, elas são chamadas de distribuições.
+
+Normalmente distribuições são criadas para atender propósitos específicos. Há versões desenvolvidas especificamene para rodarem em servidores que trabalham com tráfego pesado, outras versões para trabalhar em dispositivos de rede como roteadores e firewalls, versões mais recentes criadas para rodarem na nuvem e containers, ou em dispositivos móveis e embarcados como celulares, gps e equipamentos eletrônicos inteligentes, e claro há versões desenvolvidas para rodar em computadores pessoais como notebooks e desktops.
+
+Por se tratar de um curso introdutório vamos abordar especificamente as distribuições para computadores pessoais, mas nada impede que conhecimentos aqui aprendidos sejam usados em outras plataformas.
+
+
+### Como escolher sua distribuição?
+
+Devido a grande variedade, o grande dilema de um usuário iniciante é sempre escolher qual distribuição usar. Existem usuários que têm maior afinidade com o computador e muitos outros esperam apenas que o equipamento funcione. Hoje podemos dizer que o GNU/Linux está maduro o suficiente para atender todos os perfis de usuários, desde o mais básico ao mais avançado, e existem distribuições para todos os gostros.
+
+As principais distribuições que podemos destacar são:
+- [Ubuntu](www.ubuntu.com) - Suportada pela empresa Canonical, é uma derivação do Debian e se propõem a ser uma distribuição altamente amigável para iniciantes sem que isso prejudique sua adoção por usuários mais avançados.
+- [Linux Mint](www.linuxmint.com) - Suportada por comunidade, é uma derivação do Debian e Ubuntu e se propõem a ser uma distribuição moderna e confiável.
+- [Debian](www.debian.org) - Suportada por comunidade, é uma das mais antigas distribuições e caracteriza-se pela estabilidade e confiança. Possui a maior comunidade de todas as distribuições, tanto em desenvolvedores quanto em número de usuários.
+- [Fedora](www.getfedora.org) - Suportada por comunidade e patrocinada pela Red Hat, é uma distribuição derivada do Red Hat Enterprise e que hoje forma as bases desta distribuição.
+
+O site http://distrowatch.com/ faz o acompanhamento das distribuições e se tiverem curiosidade podem acessá-lo para saber quais são as mais utilizadas, as mais novas, tem até um mapa da ramificação das distribuições, um trabalho excelente!
+
+Para o nosso minicurso, como hoje é o Debian Day, a distribuição que iremos trabalhar será o Debian. É talvez a distribuição mais estável e gratuita que vocês irão utilizar e também é a distribuição de referência na comunidade do Software Livre.
+
+
+# Instalação
+
+Acesse o site do projeto [Debian](www.debian.org) e baixe o instalador. É importante que você tenha acesso à rede via cabo, caso sua placa de rede wireless não seja reconhecida pelo sistema será necessário instalar os drivers proprietários pois o Debian não oferece software proprietário na sua instalação padrão. Mas no próprio site é possível baixar uma versão já com os drivers necessários. No último acesso que fiz o download estava disponível em: https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/multi-arch/iso-cd/
+
+Baixada a ISO, é necessário agora criar um disco inicializável com o sistema. Para esta tarefa podemos usar algum utilitário do modo gráfico como este da imagem abaixo:
+![Utiliário](utilitario-disco.png)
+
+Ou podemos usar a linha de comando para chamar um programa padrão do sistema GNU:
+
+```
+  dd if=arquivo.iso of=/dev/sdX
+```
+
+Onde /dev/sdX é o caminho para o dispositivo USB onde se pretende gravar a imagem.
+
 
