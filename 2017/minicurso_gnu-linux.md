@@ -107,3 +107,41 @@ Primeira, como particionar o disco? Esta é uma dúvida muito comum e não é to
 Segunda, como escolher a interface gráfica? Aqui será necessário que você conheça seu hardware. Sendo objetivo, as interfaces que consomem mais recurso são: GNOME, KDE, CINNAMON e MATE. Já para as máquinas mais antigas com menos RAM e processador, é aconselhável instalar o lxde ou xfce.
 
 No nosso exercício prático iremos usar uma máquina virtual em um hardware modesto, sendo assim, usaremos lxde.
+
+
+# Usando a interface gráfica
+
+- Conseguindo ajuda
+- Atalhos e dicas
+- Instalando programas
+- Monitor do sistema
+
+# Usando a linha de comando
+
+- Conseguindo ajuda
+  * man intro, man man
+  * info, apropos, whatis, help
+- Atalhos e dicas
+  * session e CTRL-D
+  * programa &
+  * fg, bg
+- Arquivos
+  * ls, cd, pwd
+  * mkdir touch
+  * cp, mv, rm
+  * ln (simbolico vs direto)
+  * file, stat
+  * chmod, chown, sudo, su
+  * which, locate, find, grep
+  * du, mount, unmount, df
+- Instalando programas
+  * sudo, dpkg, dpkg-reconfigure, apt
+- Sistema
+  * env, export
+  * date, cal
+  * ps, free, top, kill
+  * who, whoami
+  * uname, lsb_release
+- Rede
+  * ping, telnet, netstat -anp, ss, tracepath
+
