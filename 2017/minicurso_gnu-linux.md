@@ -140,7 +140,7 @@ No nosso exercício prático iremos usar uma máquina virtual em um hardware mod
   * env, export
   * date, cal
   * ps, free, top, kill
-  * who, whoami
+  * who, whoami, useradd, userdel, passwd
   * uname, lsb_release
   * systemd: systemctl, journalctl
 - Rede
