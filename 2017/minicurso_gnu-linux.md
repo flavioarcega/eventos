@@ -87,6 +87,7 @@ Para o nosso minicurso, como hoje é o Debian Day, a distribuição que iremos t
 Acesse o site do projeto [Debian](www.debian.org) e baixe o instalador. É importante que você tenha acesso à rede via cabo, caso sua placa de rede wireless não seja reconhecida pelo sistema será necessário instalar os drivers proprietários pois o Debian não oferece software proprietário na sua instalação padrão. Mas no próprio site é possível baixar uma versão já com os drivers necessários. No último acesso que fiz o download estava disponível em: https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/multi-arch/iso-cd/
 
 Baixada a ISO, é necessário agora criar um disco inicializável com o sistema. Para esta tarefa podemos usar algum utilitário do modo gráfico como este da imagem abaixo:
+
 ![Utiliário](utilitario-disco.png)
 
 Ou podemos usar a linha de comando para chamar um programa padrão do sistema GNU:
@@ -97,4 +98,12 @@ Ou podemos usar a linha de comando para chamar um programa padrão do sistema GN
 
 Onde /dev/sdX é o caminho para o dispositivo USB onde se pretende gravar a imagem.
 
+Gravada a imagem no pendrive, configure na Bios do computador a inicialização pelo USB e execute o passo a passo para instalação.
 
+Na versão atual, Debian 9, o processo de instalação é bem fácil basta seguir as orientações no modo Próximo, Próximo, Fim e para a grande maioria dos usuários o sistema será instalado. Apenas duas observações são necessárias aqui:
+
+Primeira, como particionar o disco? Esta é uma dúvida muito comum e não é todo mundo que logo no início sabe como funcionam as partições no sitema. A orientação que posso dar é: utilize partição única sem LVM caso queira usar apenas o GNU/Linux na sua máquina, é a maneira mais fácil de usar e gerenciar o sistema. Caso queira usar outro sistema operacional em paralelo, crie uma partição para o novo sistema e utilize partição única. Assim que você tiver mais conhecimento sobre as vantagens de usar partições separadas para o /home e como tirar benefício do LVM arrisque-se e utilize as outras de partição.
+
+Segunda, como escolher a interface gráfica? Aqui será necessário que você conheça seu hardware. Sendo objetivo, as interfaces que consomem mais recurso são: GNOME, KDE, CINNAMON e MATE. Já para as máquinas mais antigas com menos RAM e processador, é aconselhável instalar o lxde ou xfce.
+
+No nosso exercício prático iremos usar uma máquina virtual em um hardware modesto, sendo assim, usaremos lxde.
