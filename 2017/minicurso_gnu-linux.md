@@ -142,6 +142,7 @@ No nosso exercício prático iremos usar uma máquina virtual em um hardware mod
   * ps, free, top, kill
   * who, whoami
   * uname, lsb_release
+  * systemd: systemctl, journalctl
 - Rede
   * ping, telnet, netstat -anp, ss, tracepath
 
