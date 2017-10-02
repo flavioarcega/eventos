@@ -10,10 +10,10 @@ Por ser um projeto que na sua época de lançamento quebrou paradigmas, o GNU/Li
 Não querendo reescrever a roda, procurei estruturar esse minicurso com base em alguns materiais de referência, na intenção de permitir aos alunos uma continuidade de aprendizado.
 
 As referências utilizadas foram:
-- [Free Software Foundation](www.fsf.org)
-- [Wiki Debian](wiki.debian.org)
-- [Guia FOCA](www.guiafoca.org)
-- [Linux.org](www.linux.org)
+- [Free Software Foundation](http://www.fsf.org/)
+- [Wiki Debian](http://wiki.debian.org/)
+- [Guia FOCA](http://www.guiafoca.org/)
+- [Linux.org](http://www.linux.org/)
 
 _"Se vi mais longe foi por estar de pé sobre ombros de gigantes."_ Isaac Newton
 
@@ -72,10 +72,10 @@ Por se tratar de um curso introdutório vamos abordar especificamente as distrib
 Devido a grande variedade, o grande dilema de um usuário iniciante é sempre escolher qual distribuição usar. Existem usuários que têm maior afinidade com o computador e muitos outros esperam apenas que o equipamento funcione. Hoje podemos dizer que o GNU/Linux está maduro o suficiente para atender todos os perfis de usuários, desde o mais básico ao mais avançado, e existem distribuições para todos os gostros.
 
 As principais distribuições que podemos destacar são:
-- [Ubuntu](www.ubuntu.com) - Suportada pela empresa Canonical, é uma derivação do Debian e se propõem a ser uma distribuição altamente amigável para iniciantes sem que isso prejudique sua adoção por usuários mais avançados.
-- [Linux Mint](www.linuxmint.com) - Suportada por comunidade, é uma derivação do Debian e Ubuntu e se propõem a ser uma distribuição moderna e confiável.
-- [Debian](www.debian.org) - Suportada por comunidade, é uma das mais antigas distribuições e caracteriza-se pela estabilidade e confiança. Possui a maior comunidade de todas as distribuições, tanto em desenvolvedores quanto em número de usuários.
-- [Fedora](www.getfedora.org) - Suportada por comunidade e patrocinada pela Red Hat, é uma distribuição derivada do Red Hat Enterprise e que hoje forma as bases desta distribuição.
+- [Ubuntu](http://www.ubuntu.com/) - Suportada pela empresa Canonical, é uma derivação do Debian e se propõem a ser uma distribuição altamente amigável para iniciantes sem que isso prejudique sua adoção por usuários mais avançados.
+- [Linux Mint](http://www.linuxmint.com/) - Suportada por comunidade, é uma derivação do Debian e Ubuntu e se propõem a ser uma distribuição moderna e confiável.
+- [Debian](http://www.debian.org/) - Suportada por comunidade, é uma das mais antigas distribuições e caracteriza-se pela estabilidade e confiança. Possui a maior comunidade de todas as distribuições, tanto em desenvolvedores quanto em número de usuários.
+- [Fedora](http://www.getfedora.org/) - Suportada por comunidade e patrocinada pela Red Hat, é uma distribuição derivada do Red Hat Enterprise e que hoje forma as bases desta distribuição.
 
 O site http://distrowatch.com/ faz o acompanhamento das distribuições e se tiverem curiosidade podem acessá-lo para saber quais são as mais utilizadas, as mais novas, tem até um mapa da ramificação das distribuições, um trabalho excelente!
 
@@ -84,7 +84,7 @@ Para o nosso minicurso, como hoje é o Debian Day, a distribuição que iremos t
 
 # Instalação
 
-Acesse o site do projeto [Debian](www.debian.org) e baixe o instalador. É importante que você tenha acesso à rede via cabo, caso sua placa de rede wireless não seja reconhecida pelo sistema será necessário instalar os drivers proprietários pois o Debian não oferece software proprietário na sua instalação padrão. Mas no próprio site é possível baixar uma versão já com os drivers necessários. No último acesso que fiz o download estava disponível em: https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/multi-arch/iso-cd/
+Acesse o site do projeto [Debian](http://www.debian.org/) e baixe o instalador. É importante que você tenha acesso à rede via cabo, caso sua placa de rede wireless não seja reconhecida pelo sistema será necessário instalar os drivers proprietários pois o Debian não oferece software proprietário na sua instalação padrão. Mas no próprio site é possível baixar uma versão já com os drivers necessários. No último acesso que fiz o download estava disponível em: https://cdimage.debian.org/cdimage/unofficial/non-free/cd-including-firmware/current/multi-arch/iso-cd/
 
 Baixada a ISO, é necessário agora criar um disco inicializável com o sistema. Para esta tarefa podemos usar algum utilitário do modo gráfico como este da imagem abaixo:
 
