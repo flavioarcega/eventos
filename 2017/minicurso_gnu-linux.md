@@ -108,7 +108,6 @@ Segunda, como escolher a interface gráfica? Aqui será necessário que você co
 
 No nosso exercício prático iremos usar uma máquina virtual em um hardware modesto, sendo assim, usaremos lxde.
 
-
 # Usando a interface gráfica
 
 - Conseguindo ajuda
@@ -146,3 +145,6 @@ No nosso exercício prático iremos usar uma máquina virtual em um hardware mod
 - Rede
   * ping, telnet, netstat -anp, ss, tracepath
 
+# A Estrutura Padrão de Diretórios
+
+https://wiki.debian.org/FilesystemHierarchyStandard
