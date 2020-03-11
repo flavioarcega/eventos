@@ -1,3 +1,3 @@
-# Materiais utilizados no FTSL
+# Materiais utilizados em eventos
 
-O repositório está organizado por ano de realização do evento.
+O repositório está organizado por ano de realização e nome do evento.
